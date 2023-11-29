@@ -1,0 +1,22 @@
+.link {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+  background: #fefefe;
+  padding: 5px;
+  border-radius: 8px;
+  margin: 0 8px;
+}
+.icon {
+  width: 100%;
+}
+
+.headerSocialLink {
+  width: 24px;
+  height: 24px;
+  margin: 0 8px;
+  border: 1px solid #444444;
+}

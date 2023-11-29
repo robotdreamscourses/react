@@ -1,0 +1,24 @@
+
+.courses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+}
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(90% / 3);
+  margin: 10px;
+  background: #444444;
+}
+
+.courseLink {
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+}

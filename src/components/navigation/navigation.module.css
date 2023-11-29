@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: bisque;
+  font-weight: bold;
+  color: black;
+  padding: 10px 15px;
+}
+
+nav a:visited,
+nav a:hover {
+  color: inherit;
+}
+nav a:hover {
+  background-color: #f5deb3;
+}
+
+.active {
+  background-color: rgb(122, 101, 76);
+}

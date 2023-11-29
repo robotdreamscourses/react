@@ -1,0 +1,9 @@
+.course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ececec;
+  margin: 0;
+  width: 100%;
+}
